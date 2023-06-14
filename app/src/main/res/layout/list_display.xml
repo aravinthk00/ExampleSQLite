@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content">-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/itemContainer"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:padding="10dp"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/name_display"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="item User Name"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="18sp"-->
+<!--            android:gravity="left"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/detail_display"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:text="item User Detail"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="18sp" />-->
+
+<!--    </LinearLayout>-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/randomText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="This is some temp text" />
+
+</FrameLayout>
